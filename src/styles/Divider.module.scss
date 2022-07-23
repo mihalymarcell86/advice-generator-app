@@ -1,0 +1,10 @@
+@use "utilities/global" as *;
+
+.divider_wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  margin-bottom: rem(8px);
+  font-size: 0;
+}

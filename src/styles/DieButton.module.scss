@@ -1,0 +1,18 @@
+@use "utilities/global" as *;
+
+.die_button {
+  width: rem(64px);
+  height: rem(64px);
+  background-color: color(neon-green);
+  border: 0;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(rem(32px));
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  &:hover {
+    box-shadow: 0px 0px 40px color(neon-green);
+  }
+}

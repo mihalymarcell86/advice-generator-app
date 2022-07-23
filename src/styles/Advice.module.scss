@@ -1,0 +1,17 @@
+@use "utilities/global" as *;
+
+.advice_id {
+  text-transform: uppercase;
+  color: color(neon-green);
+  @include setFont(rem(11px), 16px, 800);
+  letter-spacing: 3.45714px;
+  margin-bottom: em(24px, 11px);
+}
+
+.advice_text {
+  @include setFont(rem(24px), 33px, 800);
+  letter-spacing: -0.257143px;
+  text-align: center;
+  color: color(light-cyan);
+  margin-bottom: em(24px, 24px);
+}

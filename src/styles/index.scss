@@ -1,0 +1,17 @@
+@use "utilities/global" as *;
+
+@include setup;
+
+body {
+  font-family: $font-manrope;
+  background-color: color(dark-blue);
+  margin-inline: rem(16px);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
