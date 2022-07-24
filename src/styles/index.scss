@@ -11,7 +11,8 @@ body {
 #root {
   width: 100%;
   min-height: 100vh;
+  padding-top: max(rem(32px), lerp(667px, rem(120px), 810px, rem(223px), true));
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }

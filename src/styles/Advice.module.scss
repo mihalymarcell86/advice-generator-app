@@ -3,15 +3,19 @@
 .advice_id {
   text-transform: uppercase;
   color: color(neon-green);
-  @include setFont(rem(11px), 16px, 800);
+  font-size: fluid(rem(13px), rem(18px));
+  line-height: fluid(16px, 18px);
+  font-weight: 800;
   letter-spacing: 3.45714px;
   margin-bottom: em(24px, 11px);
 }
 
 .advice_text {
-  @include setFont(rem(24px), 33px, 800);
-  letter-spacing: -0.257143px;
+  font-size: fluid(rem(24px), rem(28px));
+  line-height: fluid(33px, 38px);
+  font-weight: 800;
+  letter-spacing: fluid(-0.257143px, -0.3px);
   text-align: center;
   color: color(light-cyan);
-  margin-bottom: em(24px, 24px);
+  margin-bottom: fluid(rem(24px), rem(40px));
 }

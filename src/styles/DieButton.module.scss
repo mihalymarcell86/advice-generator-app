@@ -12,7 +12,9 @@
   transform: translateY(rem(32px));
   cursor: pointer;
   transition: box-shadow 0.2s ease;
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: 0px 0px 40px color(neon-green);
+    outline: 0;
   }
 }

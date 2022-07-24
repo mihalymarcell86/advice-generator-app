@@ -5,6 +5,6 @@
   overflow-x: hidden;
   display: flex;
   justify-content: center;
-  margin-bottom: rem(8px);
+  margin-bottom: fluid(rem(0px), rem(8px));
   font-size: 0;
 }
