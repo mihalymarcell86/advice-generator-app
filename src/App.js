@@ -11,15 +11,12 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    getAdvice(117);
+    getAdvice();
   }, []);
 
-  async function getAdvice(number) {
-    let URL = "https://api.adviceslip.com/advice";
-    if (!isNaN(number)) URL += `/${number}`;
-
+  async function getAdvice() {
     try {
-      const response = await fetch(URL);
+      const response = await fetch("https://api.adviceslip.com/advice");
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
